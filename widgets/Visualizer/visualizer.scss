@@ -1,0 +1,21 @@
+$background-color:  black;
+$value-color:       #fff;
+
+$title-color:       rgba(255, 255, 255, 0.7);
+$moreinfo-color:    rgba(255, 255, 255, 0.7);
+
+.visualize {
+  padding: 0px;
+}
+
+
+.visualizer {
+  padding: 0px;
+  margin: 0px;
+  background-color: $background-color;
+
+  iframe {
+    width: 100%;
+    height: 100%;
+  }
+}
